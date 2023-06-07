@@ -1,0 +1,13 @@
+{
+  "sales": [
+    {
+      "amount": "120",
+      "result": "pass"
+    },
+    {
+      "amount": "30",
+      "result": "Fail"
+    }
+  ]
+
+}

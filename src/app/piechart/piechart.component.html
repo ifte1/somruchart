@@ -1,0 +1,23 @@
+<h1>piechart works</h1>
+<button (click)="toggle()">touch</button>
+
+<div *ngIf="disp1">
+  <h1>
+  display normal pie.
+  </h1>
+
+</div>
+
+<div *ngIf="disp2">
+  <h1>
+  display Percentage  pie.
+  </h1>
+
+</div>
+<div class="chart">
+  <canvas id="piechart"></canvas>
+</div>
+
+<div>
+  <canvas id="piechart1" width="1000px" length="1000px"></canvas>
+</div>
